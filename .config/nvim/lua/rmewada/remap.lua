@@ -1,5 +1,4 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- Moves the selected lines up and down with indenting
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")

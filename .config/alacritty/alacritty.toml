@@ -1,17 +1,19 @@
 [env]
 live_config_reload = "true"
+TERM = "xterm-256color"
 
 [window]
 padding = { x = 10, y = 10 }
-opacity = 1
+blur = false 
+opacity = 0.93
 
 [font]
-size = 16
-normal = { family = "SFMono NerdFont Mono", style = "Regular" }
-bold = { family = "SFMono NerdFont Mono", style = "Bold" }
-italic = { family = "SFMono NerdFont Mono", style = "Italic" }
-bold_italic = { family = "SFMono NerdFont Mono", style = "Bold Italic" }
-offset = { x = 0, y = 4 }
+size = 15
+normal = { family = "Berkeley Mono NerdFont", style = "Regular" }
+bold = { family = "Berkeley Mono NerdFont", style = "Bold" }
+italic = { family = "Berkeley Mono NerdFont", style = "Italic" }
+bold_italic = { family = "Berkeley Mono NerdFont", style = "Bold Italic" }
+offset = { x = 0, y = 6 }
 
 # TokyoNight Alacritty Colors
 # Default colors
@@ -47,9 +49,9 @@ white = '#c0caf5'
 
 # Indexed Colors
 [[colors.indexed_colors]]
-index = 16
+index = 19
 color = '#ff9e64'
 
 [[colors.indexed_colors]]
-index = 17
+index = 19
 color = '#db4b4b'

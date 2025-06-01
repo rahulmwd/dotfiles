@@ -14,11 +14,12 @@ return {
                 style = "night",
                 transparent = true,
                 terminal_colors = true,
+                disable_background = true,
                 styles = {
                     comments = { italic = false },
                     keywords = { italic = false },
                     sidebars = "dark",
-                    floats = "transparent"
+                    floats = "transparent",
                 },
                 on_colors = function(colors)
                     colors.bg = "#000000"
